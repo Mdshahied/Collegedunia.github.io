@@ -74,6 +74,7 @@ header{
     background-size: cover;
     background-position: center;
     position: relative;
+    width:100%
 
 
 
@@ -516,14 +517,15 @@ header{
   
     .nav-links{
       
+        position: absolute;
        flex-direction: column;
-       position: absolute;
-       width: 100%;
-       top: 15vh;
-       height: 85%;
-       background-color: #030939be;
-       right: -50rem;
-       transition: all 0.5s;
+       background-color:#17161687 ;
+       right: -32px;
+       top: 17vh;
+       height: 80vh;
+       padding: 1.5rem 0;
+       width: 0%;
+       transition: width 500ms;
     }
     
     .burger{
@@ -533,7 +535,7 @@ header{
 
 .nav-show{
     width: 100%;
-    right: 0rem;
+   
 }
 
 .textareahide {
