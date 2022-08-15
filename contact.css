@@ -242,7 +242,7 @@ input:focus, textarea:focus{
 
 
 
-@media  only screen  and (max-width:600px){
+@media  only screen  and (max-width:750px){
 
   
     .nav-links{
@@ -253,7 +253,7 @@ input:focus, textarea:focus{
        top: 15vh;
        height: 85%;
        background-color: #030939be;
-       right: -100rem;
+       right: -50rem;
        transition: all 0.5s;
     }
     
