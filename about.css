@@ -262,6 +262,7 @@ header{
        background-color: #030939be;
        right: -40px;
        transition: width 0.5s;
+        padding: 1.5rem 0;
     }
     
     .burger{
