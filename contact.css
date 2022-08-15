@@ -64,6 +64,7 @@ header{
     background-size: cover;
     background-position: center;
     position: relative;
+    width:100%
 
 
 
@@ -249,12 +250,12 @@ input:focus, textarea:focus{
       
        flex-direction: column;
        position: absolute;
-       width: 100%;
+       width: 0%;
        top: 15vh;
        height: 85%;
        background-color: #030939be;
-       right: -50rem;
-       transition: all 0.5s;
+       right: -40px;
+       transition: width 0.5s;
     }
     
     .burger{
@@ -264,7 +265,7 @@ input:focus, textarea:focus{
 
 .nav-show{
     width: 100%;
-    right: 0rem;
+
 }
 
 .textareahide {
