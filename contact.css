@@ -255,6 +255,7 @@ input:focus, textarea:focus{
        height: 85%;
        background-color: #030939be;
        right: -40px;
+        padding: 1.5rem 0;
        transition: width 0.5s;
     }
     
